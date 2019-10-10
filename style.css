@@ -1,11 +1,15 @@
 *{margin:0;padding:0;box-sizing:border-box;}
 li{list-style:none;}
 a{text-decoration: none;}
-.classfix::after{
+.clearfix::after{
     content:'';
     display:block;
     clear:both;
 }
+html::-webkit-scrollbar{
+    width:0px
+}
+
 body{
     width:100vw;
     height:100vh;
@@ -89,4 +93,10 @@ header > .middle > .m-bottom >ul > li:nth-child(3){
 }
 header > .middle > .m-bottom >ul > li:nth-child(6){
     width:1.2rem;
+}
+main{
+    width:5rem;
+    height:10rem;
+    background: rgb(38, 55, 209);
+    
 }
