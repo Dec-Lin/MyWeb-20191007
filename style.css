@@ -95,8 +95,7 @@ header > .middle > .m-bottom >ul > li:nth-child(6){
     width:1.2rem;
 }
 main{
-    width:5rem;
+    width:10rem;
     height:10rem;
     background: rgb(38, 55, 209);
-    
 }
